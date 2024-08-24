@@ -1,6 +1,6 @@
 
 #Pull the standard shiny-verse container
-FROM rocker/shiny-verse:4.0.3
+FROM rocker/shiny-verse:latest
 
 #must install cmake to install from the scripts 
 RUN apt-get update && apt-get install -y cmake
